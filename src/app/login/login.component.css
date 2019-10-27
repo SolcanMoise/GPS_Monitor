@@ -1,0 +1,52 @@
+.login {
+  background-color: rgb(112, 118, 120);
+  background-size:100% auto;
+  text-align: center;
+  text-align-last: center;
+  vertical-align: middle;
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  background-color: rgb(169, 169, 169);
+  padding-top: 70px;
+  padding-right: 50px;
+  padding-bottom: 70px;
+  padding-left: 50px;
+  display: inline-block;
+  text-align: center;
+  width: 70%;
+}
+
+input[type=text], input[type=password] {
+  background-color: rgb(169, 169, 169);
+  width: 70%;
+  padding: 20px 28px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(169, 169, 169);
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  color: black;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  text-align: center;
+}
+
+button:hover {
+  opacity: 0.6;
+}
