@@ -1,16 +1,14 @@
 <div class="login">
-  
-  <h1>Login form</h1>
+    <h1>Login form</h1>
+    <form [formGroup]="logindata" (ngSubmit) = "onClickSubmit(logindata.value)" >
 
-  <div class="container">
-    <label for="username"><h2>Username</h2></label>
-    <input type="text" placeholder="Enter Username" name="username" required>
+        <label for="username"><h2>Username</h2></label>
+        <input type="text" placeholder="Enter Username" formControlName="username" required>
 
-    <label for="password"><h2>Password</h2></label>
-    <input type="password" placeholder="Enter Password" name="password" required>
+        <label for="password"><h2>Password</h2></label>
+        <input type="password" placeholder="Enter Password" formControlName="password" required>
 
-    <button type="submit"><h2>Login</h2></button>
+        <button type="submit"><h2>Login</h2></button>
 
-  </div>
-
+    </form>
 </div>
